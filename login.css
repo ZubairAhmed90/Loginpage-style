@@ -1,0 +1,122 @@
+body{
+    background-image: url(painting-mountain-lake-with-mountain-background_188544-9126.avif);
+    width: 100%;
+
+}
+.loginbox{
+
+    background-color: rgb(245, 248, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(216, 216, 213, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: fit-content;
+    height: 40%;
+    margin-top: 50px;
+    margin-left: 35%;
+    align-items: center;
+    -moz-box-align: center;
+    padding: 5% 2%;
+    
+    
+
+}
+.username{
+    box-shadow:rgba(216, 216, 213, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset ;
+    border: none ;
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    height: 50px;
+    top: 947px;
+    left: 520px;
+    border-radius: 4.39px;
+    margin-top: 30px;
+    margin-left: 40px;
+    place-content: center;
+    text-shadow: black;
+    font-display: center;
+    
+}
+.password{
+    box-shadow:rgba(216, 216, 213, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset ;
+    border: none ;
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    height: 50px;
+    top: 947px;
+    left: 520px;
+    border-radius: 4.39px;
+    margin-top: 47px;
+    margin-left: 40px;
+    place-content: center;
+      
+}
+.email{
+    box-shadow:rgba(216, 216, 213, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset ;
+    border: none ;
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    height: 50px;
+    top: 947px;
+    left: 520px;
+    border-radius: 4.39px;
+    margin-top: 47px;
+    margin-left: 40px;
+    place-content: center;
+    place-items: center;
+    place-content: center;
+}
+.loginbox > h4{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(101, 94, 88);
+}
+.loginbox > button{
+    align-items: center;
+  background-color: #121111;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(241, 236, 236, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin:auto;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 150px;
+  margin-top: 20px;
+}
+.loginbox > button:hover,
+.loginbox > button:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.loginbox > button:hover {
+  transform: translateY(-1px);
+}
+
+.loginbox > button:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
